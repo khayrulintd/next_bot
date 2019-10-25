@@ -13,7 +13,7 @@ TG_TOKEN = "822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU"
 def do_start(bot: Bot, update: Update):
     bot.send_message(
         chat_id=update.message.chat_id,
-        text="Привет! Напиши мне!",    
+        text="Привет! Введите ваши данные",    
     )
 
 def message_handler(bot:Bot, update: Update):
@@ -45,6 +45,7 @@ def main():
     updater.dispatcher.add_handler(message_handler)
     updater.start_polling()
     updater.idle()
+    print(message_handler)
     print('Finish!')
 
 
