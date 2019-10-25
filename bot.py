@@ -45,7 +45,7 @@ def main():
     updater.dispatcher.add_handler(message_handler)
     updater.start_polling()
     updater.idle()
-    print('Finish')
+    print('Finish!')
 
 
 
