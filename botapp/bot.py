@@ -27,12 +27,9 @@ def main():
     )
     updater = Updater(
         bot=bot,
-    )      
-       
+    )       
     dp = updater.dispatcher
-    dp.add_handler(CommandHandler('start', greet_user, pass_user_data=True))
-    
-    
+    dp.add_handler(CommandHandler('start', greet_user, pass_user_data=True))    
     signup = ConversationHandler(
     entry_points=[dp.add_handler(RegexHandler('^(Signup)$', signup_start, pass_user_data=True))],
     states={
@@ -54,6 +51,10 @@ def do_echo(bot:Bot, update: Update):
     text = update.message.text
     bot.send_message(chat_id=update.message.chat_id,
     text=text)
+
+def get_keybord():
+    pass
+
   
 
 def signup_start(bot, update, user_data):
@@ -74,11 +75,11 @@ def signup_get_name_and_surname(bot, update, user_data):
 def signup_get_login_and_pas(bot, update, user_data):
     username = update.message.text
     if len(username.split(' ')) != 2:
-        update.message.reply_text('Пожалуйста введите желаемый логин, затем пароль через пробел')
+        update.message.reply_text('Пожалуйста введите желаемый логин, затем пароль через пробел')  #TO-do добавить экспорт в БД
         return "login_pas"
     else:
         user_data['username and pas'] = username
-        update.message.reply_text('Учетная запись создана .')    #TO-do
+        update.message.reply_text('Учетная запись создана .')    #TO-do добавить экспорт в БД
     
     return "account_created"
 
