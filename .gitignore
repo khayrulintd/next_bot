@@ -4,3 +4,11 @@ env/
 config.py
 bloodpressure_db.sqlite
 /.vscode/**
+
+.vscode
+.DS_Store
+*.log
+__pycache__/
+.idea
+lookup.txt
+botapp/config.py

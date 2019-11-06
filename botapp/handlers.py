@@ -67,11 +67,10 @@ def signup_account_created(bot, update, user_data):
    
 
 def login_start(bot, update, user_data):
-    logging.info('Запущена login_start ')
-    #text = 'Введите логин'           
-    #my_keybord = ReplyKeyboardMarkup([['Password'],['Ok'],['Cancel']])       #,['/input pressure data']
-    #update.message.reply_text(text, reply_markup=my_keybord)
-    update.message.reply_text('Введите логин')
+    logging.info('Запущена login_start ')    
+    update.message.reply_text('Введите логин')    
+    username = update.message.text
+    logging.info(f' пользователь ввел {username}')
     return "login_check"
 
 def login_check(bot, update, user_data):
@@ -79,15 +78,15 @@ def login_check(bot, update, user_data):
     forbidden_chars = ['@', ' ']
     username = update.message.text
     logging.info(f'Запущена login_check пользователь ввел {username}')
-    if len(username.split) < 5 or len(username.split) > 20:   #проверка пустой\не пустой, длина логина не менее 6 не более 20
+    if len(list(username)) < 5 or len(list(username)) > 20:   #проверка пустой\не пустой, длина логина не менее 6 не более 20
         update.message.reply_text("Логин должен начинаться с буквы и состоять не менее чем из 5 символов и не более чем из 20 символов. Попробуйте ввести логин ешё раз")
         return "login_check"
-    elif len(list(set(username.split) & set(forbidden_chars))) != 0:   #проверка недопустимые символы ("@" " ")
-        check_forbidden_chars=list(set(username.split) & set(forbidden_chars))
+    elif len(list(set(list(username)) & set(forbidden_chars))) != 0:   #проверка на недопустимые символы ("@" " ")
+        check_forbidden_chars=(list(set(list(username)) & set(forbidden_chars)))
         update.message.reply_text(f"Введенный логин содержит недопустимые символы {check_forbidden_chars}. Введите другой логин")
         logging.info(f'login_check Введенный логин содержит недопустимые символы {check_forbidden_chars}')
         return "login_check" 
-    elif username in user_list != True: #допилить проверку наличия в БД:
+    elif len(list(set(list(username)) & set(user_list))) == 0: #str(username) in user_list != True: #допилить проверку наличия в БД:
         update.message.reply_text(f"Пользователя с логином {username} не существует. Зарегистрируйтесь или введите другой логин")
         logging.info(f"Пользователя с логином {username} не существует. Зарегистрируйтесь или введите другой логин")
         return "login_check"
@@ -99,7 +98,7 @@ def pas_start(bot, update, user_data):
     pas_list = ['qwerty', '123456','godlike']
     logging.info(f"запущена pas_start")
     pas =  update.message.text  
-    if len(pas.split) < 6 or len(pas.split) > 20:   #проверка пустой\не пустой, длина пароля не менее 6 не более 20
+    if len(list(pas)) < 6 or len(pas.split) > 20:   #проверка пустой\не пустой, длина пароля не менее 6 не более 20
         update.message.reply_text("Пароль должен состоять не менее чем из 6 символов и не более чем из 20 символов. Попробуйте ввести пароль ешё раз")
         logging.info(f"Пароль должен состоять не менее чем из 6 символов и не более чем из 20 символов. Попробуйте ввести пароль ешё раз")
         return "pas_start"

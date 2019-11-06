@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from werkzeug.security import generate_password_hash, check_password_hash
 
-from webapp.config import SQLALCHEMY_DATABASE_URI
+from botapp.config import SQLALCHEMY_DATABASE_URI
 
 engine = create_engine(SQLALCHEMY_DATABASE_URI)
 metadata = MetaData(bind=engine)
