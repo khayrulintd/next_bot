@@ -1,21 +1,40 @@
-2019-11-04 14:13:34,301 - INFO - Бот стартанул
-2019-11-04 14:13:34,302 - WARNING - Connection pool of Request object is smaller than optimal value (8)
-2019-11-04 14:13:55,555 - WARNING - Connection pool is full, discarding connection: api.telegram.org
-2019-11-04 14:13:55,557 - INFO - Запущена login_start 
-2019-11-04 14:13:55,908 - INFO -  пользователь ввел Login
-2019-11-04 14:14:03,180 - WARNING - Connection pool is full, discarding connection: api.telegram.org
-2019-11-04 14:14:03,182 - INFO - Запущена login_check пользователь ввел V@sya
-2019-11-04 14:14:03,495 - INFO - login_check Введенный логин содержит недопустимые символы ['@']
-2019-11-04 14:14:13,252 - WARNING - Connection pool is full, discarding connection: api.telegram.org
-2019-11-04 14:14:16,509 - INFO - Запущена login_check пользователь ввел asd
-2019-11-04 14:14:26,579 - WARNING - Connection pool is full, discarding connection: api.telegram.org
-2019-11-04 14:14:35,273 - INFO - Запущена login_check пользователь ввел gfjghfkfkfgkfgfkgfkghfkhfkhgfkgffkf
-2019-11-04 14:14:45,344 - WARNING - Connection pool is full, discarding connection: api.telegram.org
-2019-11-04 14:15:03,428 - INFO - Запущена login_check пользователь ввел Vasya
-2019-11-04 14:15:03,786 - INFO - Пользователя с логином Vasya не существует. Зарегистрируйтесь или введите другой логин
-2019-11-04 14:15:13,507 - WARNING - Connection pool is full, discarding connection: api.telegram.org
-2019-11-04 14:27:54,059 - ERROR - Error while getting Updates: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
-2019-11-04 14:27:54,061 - ERROR - No error handlers are registered, logging exception.
+2019-11-08 19:32:03,919 - INFO - Бот стартанул
+2019-11-08 19:32:03,920 - WARNING - Connection pool of Request object is smaller than optimal value (8)
+2019-11-08 19:32:25,897 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:32:26,309 - INFO - Запущена  signup_start
+2019-11-08 19:32:35,973 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:32:48,884 - INFO - Запущена  signup_get_name_and_surname
+2019-11-08 19:32:48,885 - INFO - Запущена  signup_get_name_and_surname  юзер ввел  2 строки. Имя и фамилия сохранены {'id': 0, 'name': 'ivan', 'surname': 'alexeev'}
+2019-11-08 19:32:54,144 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:32:54,146 - INFO - Запущена get_age {'id': 0, 'name': 'ivan', 'surname': 'alexeev'}
+2019-11-08 19:32:54,536 - INFO -  get_age введен возраст {'id': 0, 'name': 'ivan', 'surname': 'alexeev', 'age': 37}
+2019-11-08 19:33:04,219 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:33:32,185 - INFO - Запущена signup_get_login_and_pas Учетная запись         создана. user_data {'id': 0, 'name': 'ivan', 'surname': 'alexeev', 'age': 37, 'username': 'vanya77', 'password': 'ghkgiytiytit57575', 'role': 'user'}
+2019-11-08 19:33:42,255 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:38:11,581 - INFO - Бот стартанул
+2019-11-08 19:38:11,581 - WARNING - Connection pool of Request object is smaller than optimal value (8)
+2019-11-08 19:38:41,962 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:38:42,296 - INFO - Запущена  signup_start
+2019-11-08 19:38:52,045 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:38:59,714 - INFO - Запущена  signup_get_name_and_surname
+2019-11-08 19:39:00,131 - INFO - ввод ['2', '1', '3', '6', '7', '5'] содержит цифры
+2019-11-08 19:39:09,788 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:39:12,837 - INFO - Запущена  signup_get_name_and_surname
+2019-11-08 19:39:12,837 - INFO - Запущена  signup_get_name_and_surname  юзер ввел  2 строки. Имя и фамилия сохранены {'id': 0, 'name': 'ghjkg', 'surname': 'yyoyuoyo'}
+2019-11-08 19:39:21,818 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:39:21,820 - INFO - Запущена get_age {'id': 0, 'name': 'ghjkg', 'surname': 'yyoyuoyo'}
+2019-11-08 19:39:31,898 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:39:33,012 - INFO - Запущена get_age {'id': 0, 'name': 'ghjkg', 'surname': 'yyoyuoyo'}
+2019-11-08 19:39:43,086 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:39:57,024 - INFO - Запущена get_age {'id': 0, 'name': 'ghjkg', 'surname': 'yyoyuoyo'}
+2019-11-08 19:39:57,376 - INFO -  get_age введен возраст {'id': 0, 'name': 'ghjkg', 'surname': 'yyoyuoyo', 'age': 21}
+2019-11-08 19:40:07,098 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:40:14,402 - INFO - 1 signup_get_login_and_pas юзер ввел не 2строки
+2019-11-08 19:40:24,152 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 19:40:55,658 - INFO - Запущена signup_get_login_and_pas Учетная запись         создана. user_data {'id': 0, 'name': 'ghjkg', 'surname': 'yyoyuoyo', 'age': 21, 'username': 'god55', 'password': 'dag6786', 'role': 'user'}
+2019-11-08 19:41:05,737 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 20:08:54,027 - ERROR - Error while getting Updates: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+2019-11-08 20:08:54,028 - ERROR - No error handlers are registered, logging exception.
 Traceback (most recent call last):
   File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
     chunked=chunked)
@@ -92,6 +111,1828 @@ Traceback (most recent call last):
   File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
     raise NetworkError('urllib3 HTTPError {0}'.format(error))
 telegram.error.NetworkError: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
-2019-11-04 14:28:00,080 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000019CDE4A0278>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
-2019-11-04 14:28:05,081 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x0000019CDED4B668>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
-2019-11-04 14:28:05,437 - INFO - Received signal 2 (SIGINT), stopping...
+2019-11-08 20:09:00,045 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56CC0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:09:05,046 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F358>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:09:10,048 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F438>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:09:15,049 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F518>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:09:15,049 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F518>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F518>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F518>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:09:21,551 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F6A0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:09:26,553 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F8D0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:09:31,554 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F9B0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:09:36,556 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FA90>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:09:36,556 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FA90>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FA90>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FA90>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:09:43,807 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F630>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:09:48,810 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FD30>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:09:53,813 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A78080>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:09:58,815 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56F28>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:09:58,815 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56F28>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56F28>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56F28>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:10:07,192 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56F98>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:10:12,194 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56550>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:10:17,196 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FD68>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:10:22,198 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F390>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:10:22,198 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F390>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F390>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F390>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:10:32,263 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F358>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:10:37,265 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FF28>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:10:42,266 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FF60>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:10:47,268 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383128>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:10:47,268 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383128>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383128>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383128>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:10:59,864 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383278>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:11:04,866 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43833C8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:11:09,867 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43834A8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:11:14,869 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383588>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:11:14,869 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383588>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383588>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383588>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:11:31,262 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383160>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:11:36,263 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383940>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:11:41,264 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383A20>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:11:46,266 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383B38>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:11:46,266 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383B38>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383B38>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383B38>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:12:08,353 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43836D8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:12:13,355 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383EF0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:12:18,355 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383FD0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:12:23,357 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383240>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:12:23,358 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383240>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383240>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383240>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:12:53,987 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383C88>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:12:58,988 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383470>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:13:03,990 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43830B8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:13:08,992 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43830F0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:13:08,992 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43830F0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43830F0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43830F0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:13:52,451 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FE10>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:13:57,452 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FFD0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:14:02,454 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FAC8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:14:07,456 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F390>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:14:07,456 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F390>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F390>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F390>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:14:42,468 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56AC8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:14:47,469 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56DA0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:14:52,471 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56550>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:14:57,472 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56F28>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:14:57,472 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56F28>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56F28>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56F28>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:15:32,475 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397128>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:15:37,477 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43972E8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:15:42,478 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43973C8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:15:47,480 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43974E0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:15:47,480 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43974E0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43974E0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43974E0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:16:22,482 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43970B8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:16:27,483 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397898>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:16:32,484 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397978>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:16:37,485 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397A90>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:16:37,485 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397A90>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397A90>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397A90>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:17:12,488 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397630>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:17:17,489 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397E48>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:17:22,491 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397F28>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:17:27,493 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397048>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:17:27,494 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397048>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397048>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397048>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:18:02,496 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397BE0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:18:07,498 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397390>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:18:12,499 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB384ABE0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:18:17,501 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A780F0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:18:17,501 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A780F0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A780F0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A780F0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:18:52,503 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56F98>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:18:57,505 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56DA0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:19:02,507 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56EB8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:19:07,509 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F438>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:19:07,509 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F438>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F438>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F438>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:19:42,524 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FEB8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:19:47,525 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FAC8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:19:52,527 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FE10>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:19:57,529 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383320>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:19:57,529 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383320>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383320>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383320>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:20:32,531 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383BE0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:20:37,532 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43833C8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:20:42,534 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383278>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:20:47,536 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383208>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:20:47,536 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383208>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383208>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383208>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:21:22,539 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A71D0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:21:27,540 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7358>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:21:32,542 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7438>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:21:37,542 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7550>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:21:37,542 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7550>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7550>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7550>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:22:12,545 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A70F0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:22:17,546 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7908>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:22:22,548 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A79E8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:22:27,550 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383048>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:22:27,550 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383048>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383048>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383048>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:23:02,553 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4383208>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:23:07,554 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43834A8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:23:12,555 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43832B0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:23:17,556 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FF60>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:23:17,556 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FF60>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FF60>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FF60>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:23:52,569 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F390>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:23:57,570 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FF28>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:24:02,576 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433FF98>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:24:07,578 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F438>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:24:07,578 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F438>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F438>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB433F438>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:24:42,590 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56EF0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:24:47,591 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56F28>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:24:52,593 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A56F98>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:24:57,594 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A78278>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:24:57,595 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A78278>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A78278>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB3A78278>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:25:32,597 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397B38>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:25:37,598 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397128>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:25:42,600 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397DD8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:25:47,601 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397048>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:25:47,601 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397048>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397048>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB4397048>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:26:22,604 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7080>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:26:27,605 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7CC0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:26:32,606 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7DA0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:26:37,608 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7EB8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:26:37,608 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7EB8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7EB8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43A7EB8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:27:12,611 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43B5128>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:27:17,612 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43B52B0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:27:22,614 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43B5390>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates
+2019-11-08 20:27:27,615 - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43B54A8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:27:27,616 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43B54A8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43B54A8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\bot.py", line 1983, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "c:\projects\next_bot\env\lib\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot822102958:AAHsgSxtLNp1FHMFXih30Rkpkx4DHFsvsFU/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x000001BAB43B54A8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+2019-11-08 20:55:06,827 - INFO - Бот стартанул
+2019-11-08 20:55:06,828 - WARNING - Connection pool of Request object is smaller than optimal value (8)
+2019-11-08 20:55:35,543 - WARNING - Connection pool is full, discarding connection: api.telegram.org
+2019-11-08 20:56:46,980 - INFO - Запущена login_start 
+2019-11-08 20:56:57,049 - WARNING - Connection pool is full, discarding connection: api.telegram.org

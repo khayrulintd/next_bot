@@ -1,14 +1,8 @@
-.vscode/
-__pycache__/
-env/
-config.py
-bloodpressure_db.sqlite
-/.vscode/**
-
+env
 .vscode
 .DS_Store
 *.log
-__pycache__/
+.botapp/__pycache__/*
 .idea
 lookup.txt
-botapp/config.py
+webapp/config.py
